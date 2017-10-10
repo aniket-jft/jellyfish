@@ -1,0 +1,90 @@
+#menu, #menu ul
+{
+	list-style: none outside none;
+	border: 1px solid black;
+	background-color: black;
+	padding: 0 0 55px 0;
+	margin: 0;
+	font-size:20px;
+	font-family:sans-serif;
+}
+#menu li
+{
+	float: left;
+	margin-right: 7px;
+	margin-top:1px;
+	position: relative;
+}
+#menu li ul {
+	position:absolute;
+	margin-top:-.15em;
+	margin-left:-.20em;
+	display:none;
+	width:auto;
+	height:auto;
+}
+#menu ul li ul {
+	margin-top:-2.5em;
+	margin-left:7.72em;
+	z-index: 99;
+}
+#menu a:link, #menu a:visited
+{
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+}
+#menu li:hover
+{
+	background-color: green;
+	border: 1px solid #000;
+}
+#menu li:hover ul, #menu li.over ul {
+	display:block;
+}
+#menu li:hover ul ul, #menu li.over ul ul {
+	display:none;
+}
+#menu ul li:hover ul, #menu ul li.over ul {
+	display:block;
+}
+#divident{
+margin-left:30em;
+}
+#container{
+border:1px solid black;
+}
+.radio{
+margin-left:5em;
+}
+#footer {
+	text-align:center;
+margin-top:26.5em;
+}
+body{
+background-image:url("index1.jpg");
+}
+#page1{
+float:left;
+	width:28%;
+}
+#vehicle{
+float:left;
+width:30%;
+}
+#age{
+	margin-top:5.7em;
+position:absolute;
+}
+#check{
+position:absolute;
+	margin-left:14em;
+	margin-top:5.3em;
+}
+#submit{
+position:absolute;
+	margin-left:-20em;
+	margin-top:9.8em;
+}
